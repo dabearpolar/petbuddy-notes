@@ -1,0 +1,36 @@
+NexIDE - tool you write code in, you can upload code to NodeMCU (petbuddy board)
+	Usman will write the code for me
+	Use nexide to push the code onto the nodemcu (“flash”)
+	Nexide tool will tell you when upload is complete
+	Then you would restart the petbuddy board (unplug, replug the cable)
+	Need to find a better way to reboot the board over the air when customers have petbuddy in their house
+	Into the laptop
+	Write python code on mac which will run on mac, will communicate with petbuddy over wifi  
+	Test with python
+	Emulating a phone that the user might use to communicate with their petbuddy
+
+Need to be able to sign into github, pull repos, push repos, change code and update stuff
+ls
+cd
+Traverse directories
+Pwd = print working directory
+Pwd each time we cd .. up directories until we got to the top
+Top is a /
+Cd ~ = go to local directory
+Is like your home on your computer
+
+find . -iname "name of file"
+find . -iname "*artial name of fil*"
+	finds file names with the names given as the argument
+
+ag - silver searcher
+	searches "a given pattern" inside files within the current directory 
+	use quotations around search string
+	how to use: 
+	ag "this is a sentence i am looking for"
+
+end of line get to beginning ctrl-A
+start of line get to end ctrl-E
+
+terminal line command when you're committing, must give description of what you are changing
+	Vi - text editor, esc - :wq submits, although you could use git commit -m "this is my comment" to avoid
