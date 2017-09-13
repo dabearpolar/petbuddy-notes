@@ -34,3 +34,7 @@ start of line get to end ctrl-E
 
 terminal line command when you're committing, must give description of what you are changing
 	Vi - text editor, esc - :wq submits, although you could use git commit -m "this is my comment" to avoid
+
+We use ESPlorer tool to edit the petbuddy-device Lua code. We can also flash the device with ESPlorer.
+To launch ESPlorer, go to the ESPlorer directory, and then do:
+	$ sudo java -jar ESPlorer.jar
