@@ -38,3 +38,5 @@ terminal line command when you're committing, must give description of what you 
 We use ESPlorer tool to edit the petbuddy-device Lua code. We can also flash the device with ESPlorer.
 To launch ESPlorer, go to the ESPlorer directory, and then do:
 	$ sudo java -jar ESPlorer.jar
+
+ctrl-r shows reverse search for command history, start typing in some searching term
