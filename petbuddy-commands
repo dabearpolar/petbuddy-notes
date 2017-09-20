@@ -1,0 +1,31 @@
+Video
+	app sends "start-video"
+	petbuddy sends "acknowledge-start-video"
+		video feed turns on
+	app sends "stop-video"
+	petbuddy sends "acknowledge-stop-video"
+		video feed turns off
+
+	petbuddy detects change in image/animal, detect specific animal
+		processed in the cloud?
+		success:	cloud sends "open-food-tray"
+					petbuddy sends "acknowledge-open-food-tray"
+
+Feeding
+	app sends "feed-pet"
+	petbuddy sends "acknowledge-feed-pet"
+		pet fed
+	petbuddy sends "pet-fed"
+
+Pinging for petbuddy presence
+	petbuddy sends "PB#########" serial number
+
+Connecting to wifi
+	app sends "connect-wifi"
+	petbuddy sends "acknowledge-connect-wifi"
+		petbuddy sends a list of all the wifi networks it sees in the air
+		user chooses wifi, provides PWD
+		petbuddy connects, tries to ping 8.8.8.8
+	success: petbuddy sends "success-connect-wifi"
+	failure: petbuddy sends "failure-connect-wifi"
+
