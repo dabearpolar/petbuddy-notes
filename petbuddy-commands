@@ -19,6 +19,7 @@ Feeding
 
 Pinging for petbuddy presence
 	petbuddy sends "PB#########" serial number
+	 -- must ping once every 10s otherwise after 40s will notify app
 
 Connecting to wifi
 	app sends "connect-wifi"
